@@ -34,7 +34,7 @@ void Dialog::initUI()
 	////提示信息
 	QFont font("Microsoft YaHei", 9, 50);
 	QTextEdit* textLabelUp = new QTextEdit;
-	textLabelUp->setText(QString::fromLocal8Bit("检测到您当前驱动版本过低，为保证新版功能使用稳定，请先升级驱动。"));
+	textLabelUp->setText(QString::fromLocal8Bit("自定义窗体"));
 
 	textLabelUp->setFont(font);
 	textLabelUp->setStyleSheet("background-color:#F0F0F0;color:black");
